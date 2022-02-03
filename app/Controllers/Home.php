@@ -22,7 +22,7 @@ class Home extends BaseController
             'data' => $peoples->getPeople()
         ];
 
-        dd($data);
+        // dd($data);
         return view('data', $data);
     }
 }
